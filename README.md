@@ -28,7 +28,9 @@ $ mvn jetty:run
 
 # Invoke It, e.g;
 $ curl 'localhost:8080/'
+
 $ curl 'localhost:8080/static/v/201811231949/css/jquery.css'
+
 $ curl 'localhost:8080/static/v/201811231949/js/jquery.js'
 
 Thats it!
