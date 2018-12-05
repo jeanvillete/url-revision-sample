@@ -23,4 +23,12 @@ Ainda neste filter supracitado, há a regra "to" \/static\/compressed\/js\/$1 qu
 
 Este ultimo está mapeado no "wro4j", que tem como agrupamento "jquery" para javascript os artefatos físicos "jquery.maskedinput-1.3.js", "jquery-1.8.3.js" e "jquery-ui.js", logo todos estes são devolvidos numa única transação http request (com a revisão do build) concatenados, compactados e minimizados.
 
+# Run It
+$ mvn jetty:run
+
+# Invoke It, e.g;
+$ curl 'localhost:8080/'
+$ curl 'localhost:8080/static/v/201811231949/css/jquery.css'
+$ curl 'localhost:8080/static/v/201811231949/js/jquery.js'
+
 Thats it!
